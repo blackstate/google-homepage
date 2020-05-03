@@ -1,0 +1,80 @@
+.logo {
+    display: block;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.top {
+    padding: 0px 30px;
+    position: relative;
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-end;
+    float: right;
+    vertical-align: top;
+    margin-top: 10px;
+
+}
+.main {
+    overflow: auto;
+}
+.mid {
+    margin: 89px 0px 0px;
+    display: block;
+    height: 233px;
+    text-align: webkit-center;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+}
+
+.toptext:hover {
+    text-decoration: underline;
+}
+
+html {
+    font-family: Arial, sans-serif;
+    color: rgba(0,0,0,0.87);
+}
+
+.toptext {
+    font-size: 13px;
+    display: block;
+    cursor: pointer;
+}
+
+.spacetop {
+    padding: 0px 15px 0px 15px;
+}
+
+#boxcontainer {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#box {
+    width: 22px;
+    height: 22px;
+    background-color: mediumslateblue;
+}
+#circle {
+    margin-left: 15px;
+    width: 32px;
+    height: 32px;
+    background-color: slategray;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 32px;
+    vertical-align: middle;
+    color: white;
+}
