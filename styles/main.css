@@ -1,3 +1,25 @@
+html {
+    font-family: Arial, sans-serif;
+    color: rgba(0,0,0,0.87);
+}
+
+body {
+    color: #222;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+}
+
+.languages a:hover {
+    text-decoration: underline;
+}
+
+.toptext:hover {
+    text-decoration: underline;
+}
+
 .logo {
     display: block;
     margin: 0 auto;
@@ -27,20 +49,6 @@
     display: block;
     height: 233px;
     text-align: webkit-center;
-}
-
-a {
-    text-decoration: none;
-    color: rgba(0,0,0,0.87);
-}
-
-.toptext:hover {
-    text-decoration: underline;
-}
-
-html {
-    font-family: Arial, sans-serif;
-    color: rgba(0,0,0,0.87);
 }
 
 .toptext {
@@ -78,3 +86,44 @@ html {
     vertical-align: middle;
     color: white;
 }
+
+.center {
+    text-align: -webkit-center;
+}
+.button {
+    background-color: #f2f2f2;
+    color: #5F6368;
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 36px;
+    line-height: 27px;
+    border: 1px solid #f2f2f2;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.button:hover{
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    color: #222;
+}
+
+.button-block {
+    padding-top: 18px;
+    display: block;
+    -webkit-appearance: none;
+    width: 487px;
+    height: 70px;
+}
+
+.whole {
+    padding-bottom: 35px;
+    font-size: small;
+    display: block;
+    margin-bottom: 24px;
+}
+
+.languages {
+    padding-top: 10px;
+}
+
